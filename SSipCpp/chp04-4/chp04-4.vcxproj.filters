@@ -20,10 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="photoncannon.h">
+    <ClInclude Include="marine.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Question1.h">
+    <ClInclude Include="staticmarine.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
