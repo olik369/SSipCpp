@@ -59,17 +59,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+vector<int> graph[9];
 bool visited[9];
-vector<int> graph[9];	//graph의 index가 정점(vertex)번호
 
-void DFS(int vertexNum) {
-	visited[vertexNum] = true;
-	cout << vertexNum << ' ';
-
-	for (int i = 0; i < (int)graph[vertexNum].size(); i++) {
-		auto nextVertexNum = graph[vertexNum][i];
-		if (visited[nextVertexNum] == false) {
-			DFS(nextVertexNum);
+void DFS(int x) {
+	visited[x] = true;
+	cout << x << ' ';
+	for (int i = 0; i < (int)graph[x].size(); i++) {
+		auto y = graph[x][i];
+		if (visited[y] == false) {
+			DFS(y);
 		}
 	}
 }
