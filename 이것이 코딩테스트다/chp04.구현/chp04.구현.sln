@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "예제4-3.왕실의 나이�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "예제4-4.게임개발", "예제4-4.게임개발\예제4-4.게임개발.vcxproj", "{95E82966-337E-41B1-914C-D55D7E67A6AE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "연습장", "연습장\연습장.vcxproj", "{6F9F4A84-E978-4F39-837C-775E64DF1E17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{95E82966-337E-41B1-914C-D55D7E67A6AE}.Release|x64.Build.0 = Release|x64
 		{95E82966-337E-41B1-914C-D55D7E67A6AE}.Release|x86.ActiveCfg = Release|Win32
 		{95E82966-337E-41B1-914C-D55D7E67A6AE}.Release|x86.Build.0 = Release|Win32
+		{6F9F4A84-E978-4F39-837C-775E64DF1E17}.Debug|x64.ActiveCfg = Debug|x64
+		{6F9F4A84-E978-4F39-837C-775E64DF1E17}.Debug|x64.Build.0 = Debug|x64
+		{6F9F4A84-E978-4F39-837C-775E64DF1E17}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F9F4A84-E978-4F39-837C-775E64DF1E17}.Debug|x86.Build.0 = Debug|Win32
+		{6F9F4A84-E978-4F39-837C-775E64DF1E17}.Release|x64.ActiveCfg = Release|x64
+		{6F9F4A84-E978-4F39-837C-775E64DF1E17}.Release|x64.Build.0 = Release|x64
+		{6F9F4A84-E978-4F39-837C-775E64DF1E17}.Release|x86.ActiveCfg = Release|Win32
+		{6F9F4A84-E978-4F39-837C-775E64DF1E17}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
