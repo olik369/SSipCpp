@@ -20,10 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="staticmarine.h">
+    <ClInclude Include="MyString.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="returnref.h">
+    <ClInclude Include="selfString.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
