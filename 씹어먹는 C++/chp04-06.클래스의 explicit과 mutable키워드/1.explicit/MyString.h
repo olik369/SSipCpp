@@ -18,8 +18,11 @@ class MyString {
 	int memory_capacity;	//할당된 공간
 
 public:
+	// capacity 만큼 미리 할당함
+	explicit MyString(int capacity);
+
 	//문자 하나로 생성
-	MyString(char c);
+	explicit MyString(char c);
 
 	//문자열로 부터 생성
 	MyString(const char* str);
@@ -64,6 +67,13 @@ public:
 	//사전식으로 배열해서 어떤 문자열이 더 뒤에 오는지 판단하는 함수(크기 비교함수)
 	int compare(const MyString& str) const;
 };
+
+MyString::MyString(int capacity) {
+	string_content = new char[capacity];
+	string_length = 0;
+	memory_capacity = capacity;
+	cout << "Capacity : " << capacity << endl;
+}
 
 MyString::MyString(char c) {
 	string_content = new char[1];
@@ -270,4 +280,8 @@ int MyString::compare(const MyString& str) const {
 	if (string_length == str.string_length) return 0;
 	else if (string_length > str.string_length) return 1;
 	else return -1;
+}
+
+void DoSomethingWithString(MyString s) {
+	// Do something...
 }
