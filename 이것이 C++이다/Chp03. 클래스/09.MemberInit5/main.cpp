@@ -5,9 +5,10 @@ using namespace std;
 class CTest
 {
 public:
+	// 생성자
 	CTest() {}
 
-	// C++11 부터 선언과 동시에 멤버변수를 초기화 할수 있다!
+	// C++ 11 부터는 멤버변수 선언 시 초기화 이런식으로 가능!(매우 직관적으로~)
 	int m_nData1 = 10;
 	int m_nData2 = 20;
 
